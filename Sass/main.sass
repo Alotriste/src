@@ -1,0 +1,155 @@
+*
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+body
+
+.class_header
+    display: flex
+    justify-content: flex-start
+    width: 100%
+    height: 96px
+    left: 0px
+    top: 0px
+    background-color: #E5FAFF
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.25)
+    &_logo
+        display: flex
+        justify-content: flex-start
+        flex-wrap: wrap
+        align-content: center
+        width: 433px
+        
+        &_img
+            position: absolute
+            width: 65px
+            height: 71px
+            left: 38px
+            top: 13px
+        &_text
+            position: absolute
+            width: 309px
+            height: 45px
+            left: 124px
+            top: 26px
+
+            font-family: Roboto, sans-serif
+            font-style: normal
+            font-weight: normal
+            font-size: 36px
+            line-height: 42px
+
+            color: #000000
+    &_menu
+        flex-grow: 1
+    &_log
+        display: flex
+        justify-content: flex-start
+        flex-wrap: wrap
+        align-content: center
+        width: 289px
+        position: relative
+        &_login
+            
+            width: 107px
+            height: 45px
+            
+            font-family: Roboto, sans-serif
+            font-style: normal
+            font-weight: normal
+            font-size: 36px
+            line-height: 42px
+
+            color: #000000
+
+        &_line
+            
+        &_singUp  
+            position: absolute  
+            width: 154px
+            height: 45px
+            font-family: Roboto, sans-serif
+            font-style: normal
+            font-weight: normal
+            font-size: 36px
+            line-height: 42px
+            left: 130px
+            top: 23px
+
+            color: #000000
+//MainSection
+
+.class_section
+    display: grid
+    grid-template: repeat(12, 1fr)/ repeat(14, 1fr)
+    height: 100vh
+    &_result
+        grid-column: 2/5
+        grid-row: 5/7
+        background-color: #FFFDCB
+        box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.25)
+        border-radius: 20px
+        display: flex
+        flex-wrap: wrap
+        align-content: center
+        justify-content: center
+        &_text
+            
+            font-family: Roboto, sans-serif
+            font-style: normal
+            font-weight: normal
+            font-size: 28px
+            line-height: 25px
+    &_ingOne
+        grid-column: 2/5
+        grid-row: 8/12
+    &_ingTwo
+        grid-column: 11/14
+        grid-row: 5/11    
+    &_block
+        grid-column: 4/12
+        grid-row: 2/4
+        background-color: #FFFDCB
+        
+        box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.25)
+        border-radius: 20px
+        position: relative
+        &_title
+            position: absolute
+            width: 600px
+            height: 117px
+            left: 130px
+            top: 24px
+
+            font-family: Roboto, sans-serif 
+            font-style: normal
+            font-weight: normal
+            font-size: 28px
+            line-height: 25px
+            /* or 140% */
+
+            text-align: center
+
+            color: #000000
+    &_circle
+        grid-column: 5 / 11
+        grid-row: 5/11
+        
+        display: flex
+        flex-wrap: wrap
+        align-content: center
+        justify-content: center
+        &_main
+            display: flex
+            flex-wrap: wrap
+            align-content: center
+            justify-content: center
+            background-color: #E5FAFF
+            width: 426px
+            height: 426px
+            border-radius: 100%
+            box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.25)
+            &_button
+                background-color: rgba(255, 255, 255, 0)
+                border-radius: 60%
+                border: none
